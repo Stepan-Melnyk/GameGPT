@@ -6,8 +6,8 @@ body {
 }
 
 h1 {
-  text-align: center;
-  font-size: 2em;
+  /* text-align: center; */
+  font-size: 45px;
 }
 
 table {
@@ -40,6 +40,9 @@ td.cell:hover {
 /* Зміна кольору шрифту заголовку */
 h1 {
   color: orange;
+  /* width: 25%; */
+  /* font-size: 24px;
+  font-family: "Open Sans", Verdana, sans-serif; */
 }
 
 /* Зміна кольору бордера клітинок */
@@ -57,11 +60,13 @@ h1 {
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
-  font-size: 16px;
+  font-size: 26px;
   cursor: pointer;
   margin-top: 20px;
-  
+  font-size: 24px;
   width: 200px;
+  font-family: "Open Sans", Verdana, sans-serif;
+
 }
 a.home {
   background-color: orange;
@@ -69,10 +74,12 @@ a.home {
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
-  font-size: 16px;
+  font-size: 26px;
   cursor: pointer;
   margin-top: 20px;
   margin-right: 10vw;
-  width: 200px;
+  width: 10%;
   text-decoration: none;
+  font-family: "Open Sans", Verdana, sans-serif;
+
 }
