@@ -1,0 +1,97 @@
+/* Стилі для заголовка */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Стилі для контейнера гри */
+  .game-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Стилі для контейнера зі словом та категорією */
+  .word-container {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Стилі для слова */
+  .word {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  
+  /* Стилі для категорії */
+  .category {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  /* Стилі для контейнера з формою введення */
+  .form-container {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Стилі для форми введення */
+  form {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Стилі для поля введення */
+  input[type="text"] {
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    margin-right: 1rem;
+    width: 20rem;
+  }
+  
+  /* Стилі для кнопки "Перевірити" */
+  button[type="submit"] {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #5dbcd2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  /* Стилі для кнопки "Перевірити" при наведенні */
+  button[type="submit"]:hover {
+    background-color: #449ca9;
+  }
+  
+  /* Стилі для контейнера з результатом */
+  .result-container {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Стилі для результату */
+  .result {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5dbcd2;
+  }
+  a.home {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: black; 
+    text-decoration: none; 
+    font-size: 1.2rem; 
+    margin-right: 20px; 
+  }

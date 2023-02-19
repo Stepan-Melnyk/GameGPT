@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Загальні стилі для всього документа */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  /* Стилі для заголовка */
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: rgb(26, 23, 18);
+  }
+  
+  /* Стилі для списку ігор */
+  .game-list {
+    list-style: none;
+    margin: auto;
+    width: 400px;
+
+  }
+  
+  .game-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Стилі для посилань */
+  .game-list-item {
+    display: block;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .game-list-item:hover {
+    color: #007bff;
+  }
+  
