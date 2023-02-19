@@ -7,7 +7,7 @@ body {
 
 h1 {
   /* text-align: center; */
-  font-size: 45px;
+  font-size: 65px;
 }
 
 table {
@@ -60,10 +60,9 @@ h1 {
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
-  font-size: 26px;
+  font-size: 46px;
   cursor: pointer;
   margin-top: 20px;
-  font-size: 24px;
   width: 200px;
   font-family: "Open Sans", Verdana, sans-serif;
 
@@ -74,7 +73,7 @@ a.home {
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
-  font-size: 26px;
+  font-size: 46px;
   cursor: pointer;
   margin-top: 20px;
   margin-right: 10vw;
@@ -82,4 +81,7 @@ a.home {
   text-decoration: none;
   font-family: "Open Sans", Verdana, sans-serif;
 
+}
+.container {
+  margin: 50vw,50vw;
 }
