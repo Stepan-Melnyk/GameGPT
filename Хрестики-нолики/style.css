@@ -6,23 +6,23 @@ body {
 }
 
 h1 {
-  /* text-align: center; */
+  text-align: center;
   font-size: 65px;
 }
 
 table {
   margin: 0 auto;
-  width: 80%;
-  height: 80vw;
+  width: 90vw;
+  height: 90vw;
   border-collapse: collapse;
   box-shadow: 0 0 5px grey;
 }
 
 td.cell {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   text-align: center;
-  font-size: 6em;
+  font-size: 80px;
   border: 1px solid black;
   cursor: pointer;
 }
@@ -77,11 +77,16 @@ a.home {
   cursor: pointer;
   margin-top: 20px;
   margin-right: 10vw;
-  width: 10%;
+  
   text-decoration: none;
   font-family: "Open Sans", Verdana, sans-serif;
 
 }
 .container {
   margin: 50vw,50vw;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
